@@ -1,0 +1,34 @@
+{
+    "data":[
+        {
+            "title" : "Candidate Expirience Analytics",
+            "subtitle" : "The Benefits And Drawbacks Of Buying Desingner Kitchenware Products",
+            "image" : "candidateExperienceImage"
+        },
+        {
+            "title" : "Dream Team Builder",
+            "subtitle" : "The Benefits And Drawbacks Of Buying Desingner Kitchenware Products",
+            "image" : "teamBuilderImage"
+        },
+        {
+            "title" : "Clone Recruit",
+            "subtitle" : "The Benefits And Drawbacks Of Buying Desingner Kitchenware Products",
+            "image" : "cloneRecruitImage"
+        },
+        {
+            "title" : "Future Hire Boards",
+            "subtitle" : "The Benefits And Drawbacks Of Buying Desingner Kitchenware Products",
+            "image" : "hireBoardsImage"
+        },
+        {
+            "title" : "Progress Reports",
+            "subtitle" : "The Benefits And Drawbacks Of Buying Desingner Kitchenware Products",
+            "image" : "progressReportsImage"
+        },
+        {
+            "title" : "Meeting Types",
+            "subtitle" : "The Benefits And Drawbacks Of Buying Desingner Kitchenware Products",
+            "image" : "meetingTypesImage"
+        }
+    ]
+}
