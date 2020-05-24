@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		4FAF54BB4DA1FE25D4179BD7 /* Pods_InterviewQuestions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AB1B6D68325B56D58D1799 /* Pods_InterviewQuestions.framework */; };
 		5BED5B2024BC8512ACE540BA /* Pods_InterviewQuestionsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2246040430C7D2D5C019B7C3 /* Pods_InterviewQuestionsTests.framework */; };
+		622B06C52479F57100C7ED45 /* EncodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622B06C42479F57100C7ED45 /* EncodableExtension.swift */; };
+		622B06C62479F57100C7ED45 /* EncodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622B06C42479F57100C7ED45 /* EncodableExtension.swift */; };
+		622B06C72479F57100C7ED45 /* EncodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622B06C42479F57100C7ED45 /* EncodableExtension.swift */; };
+		622B06CA2479F5EA00C7ED45 /* QuestionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622B06C92479F5EA00C7ED45 /* QuestionRequest.swift */; };
+		622B06CB2479F5EA00C7ED45 /* QuestionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622B06C92479F5EA00C7ED45 /* QuestionRequest.swift */; };
+		622B06CC2479F5EA00C7ED45 /* QuestionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622B06C92479F5EA00C7ED45 /* QuestionRequest.swift */; };
 		6240CF2924797BEE00732C90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6240CF2824797BEE00732C90 /* AppDelegate.swift */; };
 		6240CF2B24797BEE00732C90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6240CF2A24797BEE00732C90 /* SceneDelegate.swift */; };
 		6240CF2D24797BEE00732C90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6240CF2C24797BEE00732C90 /* ViewController.swift */; };
@@ -19,6 +25,21 @@
 		6240CF5E24797FCC00732C90 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6240CF5D24797FCC00732C90 /* HomeViewController.swift */; };
 		6240CF5F24797FCC00732C90 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6240CF5D24797FCC00732C90 /* HomeViewController.swift */; };
 		6240CF6024797FCC00732C90 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6240CF5D24797FCC00732C90 /* HomeViewController.swift */; };
+		624979E52479C95D00EA9163 /* RestDataClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624979E42479C95D00EA9163 /* RestDataClient.swift */; };
+		624979E62479C95D00EA9163 /* RestDataClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624979E42479C95D00EA9163 /* RestDataClient.swift */; };
+		624979E72479C95D00EA9163 /* RestDataClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624979E42479C95D00EA9163 /* RestDataClient.swift */; };
+		624979EA2479D22100EA9163 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624979E92479D22100EA9163 /* ErrorResponse.swift */; };
+		624979EB2479D22100EA9163 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624979E92479D22100EA9163 /* ErrorResponse.swift */; };
+		624979EC2479D22100EA9163 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624979E92479D22100EA9163 /* ErrorResponse.swift */; };
+		624979EE2479D32500EA9163 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624979ED2479D32500EA9163 /* Questions.swift */; };
+		624979EF2479D32500EA9163 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624979ED2479D32500EA9163 /* Questions.swift */; };
+		624979F02479D32500EA9163 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624979ED2479D32500EA9163 /* Questions.swift */; };
+		624979F22479D49000EA9163 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624979F12479D49000EA9163 /* StringExtension.swift */; };
+		624979F32479D49000EA9163 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624979F12479D49000EA9163 /* StringExtension.swift */; };
+		624979F42479D49000EA9163 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624979F12479D49000EA9163 /* StringExtension.swift */; };
+		624979F62479D5A000EA9163 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624979F52479D5A000EA9163 /* DataProvider.swift */; };
+		624979F72479D5A000EA9163 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624979F52479D5A000EA9163 /* DataProvider.swift */; };
+		624979F82479D5A000EA9163 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624979F52479D5A000EA9163 /* DataProvider.swift */; };
 		F0C5D1F8B7AB81043F5337CA /* Pods_InterviewQuestions_InterviewQuestionsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2AA13025A89165E46CC3C61 /* Pods_InterviewQuestions_InterviewQuestionsUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +65,8 @@
 		18AB1B6D68325B56D58D1799 /* Pods_InterviewQuestions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InterviewQuestions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2246040430C7D2D5C019B7C3 /* Pods_InterviewQuestionsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InterviewQuestionsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		343B1FD3DEA9F7BA24D3D8AD /* Pods-InterviewQuestionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewQuestionsTests.debug.xcconfig"; path = "Target Support Files/Pods-InterviewQuestionsTests/Pods-InterviewQuestionsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		622B06C42479F57100C7ED45 /* EncodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableExtension.swift; sourceTree = "<group>"; };
+		622B06C92479F5EA00C7ED45 /* QuestionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionRequest.swift; sourceTree = "<group>"; };
 		6240CF2524797BEE00732C90 /* InterviewQuestions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterviewQuestions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6240CF2824797BEE00732C90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6240CF2A24797BEE00732C90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +81,11 @@
 		6240CF4A24797BF300732C90 /* InterviewQuestionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewQuestionsUITests.swift; sourceTree = "<group>"; };
 		6240CF4C24797BF300732C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6240CF5D24797FCC00732C90 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		624979E42479C95D00EA9163 /* RestDataClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestDataClient.swift; sourceTree = "<group>"; };
+		624979E92479D22100EA9163 /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		624979ED2479D32500EA9163 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		624979F12479D49000EA9163 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		624979F52479D5A000EA9163 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		66C185705A00B3D1971BD7EA /* Pods-InterviewQuestions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewQuestions.debug.xcconfig"; path = "Target Support Files/Pods-InterviewQuestions/Pods-InterviewQuestions.debug.xcconfig"; sourceTree = "<group>"; };
 		7ECC015C3584327B104BC58D /* Pods-InterviewQuestions-InterviewQuestionsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewQuestions-InterviewQuestionsUITests.release.xcconfig"; path = "Target Support Files/Pods-InterviewQuestions-InterviewQuestionsUITests/Pods-InterviewQuestions-InterviewQuestionsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		81F18436B776E8F442B70918 /* Pods-InterviewQuestions-InterviewQuestionsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewQuestions-InterviewQuestionsUITests.debug.xcconfig"; path = "Target Support Files/Pods-InterviewQuestions-InterviewQuestionsUITests/Pods-InterviewQuestions-InterviewQuestionsUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -93,6 +121,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		622B06C82479F59900C7ED45 /* RequestModels */ = {
+			isa = PBXGroup;
+			children = (
+				622B06C92479F5EA00C7ED45 /* QuestionRequest.swift */,
+			);
+			path = RequestModels;
+			sourceTree = "<group>";
+		};
 		6240CF1C24797BEE00732C90 = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +196,8 @@
 		6240CF5924797E2800732C90 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				624979F12479D49000EA9163 /* StringExtension.swift */,
+				622B06C42479F57100C7ED45 /* EncodableExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -175,6 +213,10 @@
 		6240CF5B24797E3C00732C90 /* DataManagement */ = {
 			isa = PBXGroup;
 			children = (
+				622B06C82479F59900C7ED45 /* RequestModels */,
+				624979E82479D20800EA9163 /* ResponseModels */,
+				624979E42479C95D00EA9163 /* RestDataClient.swift */,
+				624979F52479D5A000EA9163 /* DataProvider.swift */,
 			);
 			path = DataManagement;
 			sourceTree = "<group>";
@@ -185,6 +227,15 @@
 				6240CF5D24797FCC00732C90 /* HomeViewController.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		624979E82479D20800EA9163 /* ResponseModels */ = {
+			isa = PBXGroup;
+			children = (
+				624979E92479D22100EA9163 /* ErrorResponse.swift */,
+				624979ED2479D32500EA9163 /* Questions.swift */,
+			);
+			path = ResponseModels;
 			sourceTree = "<group>";
 		};
 		66850991908C6B2B78BD28A0 /* Pods */ = {
@@ -449,7 +500,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6240CF2D24797BEE00732C90 /* ViewController.swift in Sources */,
+				624979E52479C95D00EA9163 /* RestDataClient.swift in Sources */,
 				6240CF2924797BEE00732C90 /* AppDelegate.swift in Sources */,
+				622B06C52479F57100C7ED45 /* EncodableExtension.swift in Sources */,
+				624979EE2479D32500EA9163 /* Questions.swift in Sources */,
+				624979F22479D49000EA9163 /* StringExtension.swift in Sources */,
+				622B06CA2479F5EA00C7ED45 /* QuestionRequest.swift in Sources */,
+				624979EA2479D22100EA9163 /* ErrorResponse.swift in Sources */,
+				624979F62479D5A000EA9163 /* DataProvider.swift in Sources */,
 				6240CF2B24797BEE00732C90 /* SceneDelegate.swift in Sources */,
 				6240CF5E24797FCC00732C90 /* HomeViewController.swift in Sources */,
 			);
@@ -459,8 +517,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				622B06CB2479F5EA00C7ED45 /* QuestionRequest.swift in Sources */,
 				6240CF4024797BF300732C90 /* InterviewQuestionsTests.swift in Sources */,
 				6240CF5F24797FCC00732C90 /* HomeViewController.swift in Sources */,
+				624979F32479D49000EA9163 /* StringExtension.swift in Sources */,
+				624979F72479D5A000EA9163 /* DataProvider.swift in Sources */,
+				624979E62479C95D00EA9163 /* RestDataClient.swift in Sources */,
+				622B06C62479F57100C7ED45 /* EncodableExtension.swift in Sources */,
+				624979EF2479D32500EA9163 /* Questions.swift in Sources */,
+				624979EB2479D22100EA9163 /* ErrorResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,8 +533,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				622B06CC2479F5EA00C7ED45 /* QuestionRequest.swift in Sources */,
 				6240CF4B24797BF300732C90 /* InterviewQuestionsUITests.swift in Sources */,
 				6240CF6024797FCC00732C90 /* HomeViewController.swift in Sources */,
+				624979F42479D49000EA9163 /* StringExtension.swift in Sources */,
+				624979F82479D5A000EA9163 /* DataProvider.swift in Sources */,
+				624979E72479C95D00EA9163 /* RestDataClient.swift in Sources */,
+				622B06C72479F57100C7ED45 /* EncodableExtension.swift in Sources */,
+				624979F02479D32500EA9163 /* Questions.swift in Sources */,
+				624979EC2479D22100EA9163 /* ErrorResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
